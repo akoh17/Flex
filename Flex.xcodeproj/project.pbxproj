@@ -11,7 +11,7 @@
 		1DF120E11BADEB4F000A1926 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF120E01BADEB4F000A1926 /* CoreBluetooth.framework */; };
 		1DF120E31BADEB5C000A1926 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF120E21BADEB5C000A1926 /* SystemConfiguration.framework */; };
 		876072CA1BAD7A07006C69C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876072C91BAD7A07006C69C2 /* AppDelegate.swift */; };
-		876072CC1BAD7A07006C69C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876072CB1BAD7A07006C69C2 /* ViewController.swift */; };
+		876072CC1BAD7A07006C69C2 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876072CB1BAD7A07006C69C2 /* NavigationController.swift */; };
 		876072CF1BAD7A07006C69C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876072CD1BAD7A07006C69C2 /* Main.storyboard */; };
 		876072D11BAD7A07006C69C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876072D01BAD7A07006C69C2 /* Images.xcassets */; };
 		876072D41BAD7A07006C69C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876072D21BAD7A07006C69C2 /* LaunchScreen.xib */; };
@@ -36,7 +36,7 @@
 		876072C41BAD7A07006C69C2 /* Flex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876072C81BAD7A07006C69C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876072C91BAD7A07006C69C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		876072CB1BAD7A07006C69C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		876072CB1BAD7A07006C69C2 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		876072CE1BAD7A07006C69C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		876072D01BAD7A07006C69C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		876072D31BAD7A07006C69C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 			children = (
 				1DF120DE1BADE9B4000A1926 /* MyoKit.framework */,
 				876072C91BAD7A07006C69C2 /* AppDelegate.swift */,
-				876072CB1BAD7A07006C69C2 /* ViewController.swift */,
+				876072CB1BAD7A07006C69C2 /* NavigationController.swift */,
 				876072CD1BAD7A07006C69C2 /* Main.storyboard */,
 				876072D01BAD7A07006C69C2 /* Images.xcassets */,
 				876072D21BAD7A07006C69C2 /* LaunchScreen.xib */,
@@ -227,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				876072CC1BAD7A07006C69C2 /* ViewController.swift in Sources */,
+				876072CC1BAD7A07006C69C2 /* NavigationController.swift in Sources */,
 				876072CA1BAD7A07006C69C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
