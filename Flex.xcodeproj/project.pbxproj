@@ -156,6 +156,7 @@
 		876072BC1BAD7A07006C69C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = AlexKoh;
 				TargetAttributes = {
@@ -407,6 +408,7 @@
 				876072E51BAD7A07006C69C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		876072E61BAD7A07006C69C2 /* Build configuration list for PBXNativeTarget "FlexTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +417,7 @@
 				876072E81BAD7A07006C69C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
